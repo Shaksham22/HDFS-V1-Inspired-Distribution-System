@@ -1,0 +1,22 @@
+All client ID are in string.
+
+C001=new login, no client id. please assign client id
+C002=client id present, request login
+003=request accepted
+
+ping message [nodecapacity, percetagefilled, space remaining is more than the size of block]
+client dictionary ={clientid:[lastping,status,[nodecapacity, percetagefilled, space remaining is more than the size of block],node address]}
+
+Targetnodelist=[nodeid, address]
+
+DL001=No Blocks available
+DL002=Blocks not enough
+DL003=Blocks not enough(Should not happen)
+DL004=Blocks Assigned
+
+IP info
+20000=default ports on start
+50001-60000=ports for data nodes
+40001-50000=clients
+50000=Namenode port for datanodes
+40000=Namenode port for clients(users)
